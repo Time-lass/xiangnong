@@ -1,0 +1,106 @@
+.menu{
+
+  .menu-search{
+    padding: 10px;
+    background-color: #fff;
+  }
+
+  /deep/ .van-search{
+    padding: 0;
+    border-radius: 17px;
+    overflow: hidden;
+  }
+
+  /deep/ .van-icon{
+    color:  #8a4a2e;
+  }
+
+  .menu-option{
+    display: flex;
+  }
+
+  .menu-item{
+    flex: 1;
+    height: 70px;
+    position: relative;
+    background-color: #FBFAFA;
+  }
+
+  .m-item{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .m-icon{
+    width: 34px;
+    height: 34px;
+  }
+
+  .m-text{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    &.active{
+      color: #0C34BA;
+    }
+  }
+
+  .menu-product{
+    padding: 10px;
+    background-color: #523621cc;
+  }
+
+  .m-pro-item{
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background:url(../images/mowen.png) ;
+    margin-bottom: 10px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  .pro-img{
+    width: 70px;
+    height: 70px;
+    background-color: #ddd;
+  }
+
+  .text{
+    width: calc(~"100% - 150px");
+    margin: 0 10px;
+  }
+
+  .price{
+    width: 50px;
+    line-height: 70px;
+    color: #e6bf60;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+  }
+
+  .pro-text{
+    margin-top: calc(35px / 2);
+  }
+
+  .pro-name{
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .pro-enname{
+    font-size: 12px;
+    margin-top: 5px;
+    color:  #999;
+  }
+
+  .menu-nav{
+    position: sticky;
+    top: 0;
+  }
+
+}
